@@ -4,7 +4,7 @@
 Dark extension of Roundcube Elastic theme.
 
 ## Screenshot
-<p align="center"><img src="screenshot.png"></p>
+![screenshot.png](https://raw.githubusercontent.com/mkmark/elastic-dark/master/screenshot.png)
 
 ## Usage
 ```sh
