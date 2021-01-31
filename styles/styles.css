@@ -3192,7 +3192,7 @@ ul.treelist.notree li > a {
   right: 0;
   min-width: 2em;
   line-height: 1.4rem;
-  margin: 7.7px;
+  margin: 15.4px / 2;
   padding: 0 0.3em;
   border-radius: 0.4em;
   background: #8b1000;
@@ -3202,7 +3202,7 @@ ul.treelist.notree li > a {
 }
 html.touch .folderlist li.mailbox .unreadcount {
   line-height: 2rem;
-  margin: 9.5px;
+  margin: 19px / 2;
 }
 .folderlist li.mailbox.recent > a {
   color: #250400;
@@ -5665,7 +5665,7 @@ body.status-flagged #message-header .subject:before {
   flex: 1;
 }
 #message-header .short-header div.header-subject {
-  line-height: 2rem;
+  line-height: 4rem/2;
 }
 #message-header .short-header div.header-subject > span {
   line-height: 1.5;
@@ -5838,6 +5838,9 @@ body.status-flagged #message-header .subject:before {
   content: "\f013";
 }
 /* Here you can put your custom styles that will be appended to the output css file */
+:root {
+  color-scheme: dark;
+}
 body {
   background-color: transparent;
 }
@@ -5873,4 +5876,7 @@ li {
 .ui-widget-content,
 .ui-widget-header {
   background-color: #282828 !important;
+}
+.table {
+  color: #e6e6e6;
 }
