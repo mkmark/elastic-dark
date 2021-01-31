@@ -1,12 +1,15 @@
 # Elastic-dark
 
 ## Introduction 
+
 Dark extension of Roundcube Elastic theme.
 
 ## Screenshot
+
 ![screenshot.png](https://raw.githubusercontent.com/mkmark/elastic-dark/master/screenshot.png)
 
 ## Usage
+
 Put the whole folder under `[Roundcube Path]/skins`
 
 To customize styles,
@@ -16,6 +19,7 @@ lessc styles.less styles.css
 ```
 
 ## See also
+
 - lesscss usage: [lesscss.org/usage/](http://lesscss.org/usage/)
 
 <details><summary>Original README</summary>
